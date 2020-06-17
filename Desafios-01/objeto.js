@@ -15,4 +15,4 @@ console.log(`A empresa ${usuario.empresa.nome} está localizada em ${usuario.emp
 console.log(`O usuário ${usuario.nome} trabalha na empresa ${usuario.empresa.nome}`);
 
 
-// A empresa Rocketseat está localizada em Rua Guilherme Gembala, 260
+// A empresa Rocketseat está localizada em Rua Guilherme Gembala, 260.
