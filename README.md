@@ -1,10 +1,8 @@
 <h1 align="center">
-    <img src="https://ik.imagekit.io/mqh5rdpeme/img-launchbase_u1x6ViV8P.png" alt="Desafios LaunchBase - Bootcamp" />
-
-<h2 align="center"></h2>
+    <img src="https://ik.imagekit.io/mqh5rdpeme/img-launchbase_u1x6ViV8P.png" alt="Desafios LaunchBase - Bootcamp" /> </h1>
 
 
-<p align="center">Na primeira fase do <strong>LaunchBase</strong> foi abordado <strong>Introdução à programação WEB</strong> e pratiquei vários conceitos realizando alguns desafios propostos.</p>
+<p align="center">Na primeira fase do <strong>LaunchBase</strong> foi abordado <strong>Introdução à programação WEB</strong> onde pratiquei vários conceitos realizando alguns desafios propostos.</p>
 
 ## 🚀 Desafios 
 
