@@ -7,7 +7,6 @@
 <p align="center">Na primeira fase do <strong>LaunchBase</strong> pratiquei vários conceitos realizando alguns desafios propostos.</p>
 
 ## 🚀 Desafios 
----
 
 - [Cálculo de IMC](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/calcular-imc.js)
 - [Cálculo de aposentadoria](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/calcular-aposentadoria.js)
@@ -19,7 +18,6 @@
 - [Operações bancárias](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/operacao-bancaria.js)
 
 ## 📌 Objetivo
----
 
 Desafios propostos para prática e fortalecimentos dos seguintes conceitos:
 
@@ -37,7 +35,6 @@ Desafios propostos para prática e fortalecimentos dos seguintes conceitos:
 - Escrita.
 
 ## 📂 Como baixar o projeto
----
 
 ```bash
 
