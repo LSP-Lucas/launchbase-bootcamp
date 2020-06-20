@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: dimgrey;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 30px;
+    border-bottom: 1px solid gray;
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    margin: 0 30px;
+    color: rgba(175, 172, 172, 0.698);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+header div a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: all 200ms linear 0s;
+    padding-bottom: 5px;
+}
