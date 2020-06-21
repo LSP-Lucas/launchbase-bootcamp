@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;bold&display=swap";
+
+:root {
+    --color-rocket: rgb(113, 89, 193);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--color-rocket);
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header img {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+header span {
+    color: rgb(231, 231, 231);
+    font-size: 24px;
+    margin: auto 5px;
+}
+
+#sobre {
+    display: block;
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+#sobre .content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+#sobre .content div {
+    width: 50%;
+}
+
+#sobre h1 {
+    font-size: 36px;
+    color: #4b4b4b;
+    line-height: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#sobre p {
+    color: rgb(154, 142, 191);
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#tecnologias {
+    background-color: var(--color-rocket);
+    padding: 50px ;
+    display: block;
+    box-sizing: border-box;
+}
+
+#tecnologias h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+} 
+
+#tecnologias #content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#tecnologias #content div {
+    margin: 0 100px;
+}
+
+#tecnologias #content ul li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+#footer {
+    padding: 50px;
+    display: block;
+}
+
+#footer div {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    max-width: 1000px;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer span {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#footer img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
