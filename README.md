@@ -2,9 +2,11 @@
     <img src="https://ik.imagekit.io/mqh5rdpeme/img-launchbase_u1x6ViV8P.png" alt="Desafios LaunchBase - Bootcamp" /> </h1>
 
 
-<p align="center">Na primeira fase do <strong>LaunchBase</strong> foi abordado <strong>Introdução à programação WEB</strong> onde pratiquei vários conceitos realizando alguns desafios propostos.</p>
+<p align="center">Desafios propostos pelo Bootcamp LaunchBase da Rocketseat para praticar e fixar os conteúdos </p>
 
-## 🚀 Desafios 
+## 🚀 Desafios
+
+### Primeiro
 
 - [Cálculo de IMC](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/calcular-imc.js)
 - [Cálculo de aposentadoria](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/calcular-aposentadoria.js)
@@ -14,6 +16,14 @@
 - [Busca por tecnologia](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/buscar-tecnologias.js)
 - [Soma de despesas e receitas](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/despesas.js)
 - [Operações bancárias](https://github.com/LSP-Lucas/launchbase-bootcamp/blob/master/Desafios-01/operacao-bancaria.js)
+
+### Segundo
+
+Criação de páginas utilizando **HTML**, **CSS**, **Javascript**
+
+<img src="https://ik.imagekit.io/mqh5rdpeme/projeto_JjlG_2V_n.gif" alt="Desafios LaunchBase - Bootcamp" />
+
+[Acessar o código](https://github.com/LSP-Lucas/launchbase-bootcamp/tree/master/Desafios-02 "Acessar o código")
 
 ## 📌 Objetivo
 
@@ -30,7 +40,10 @@ Desafios propostos para prática e fortalecimentos dos seguintes conceitos:
 - Booleanos;
 - Organização;
 - Padronização;
-- Escrita.
+- Escrita;
+- HTML;
+- CSS;
+- Javascript.
 
 ## 📂 Como baixar o projeto
 
@@ -47,8 +60,3 @@ Desafios propostos para prática e fortalecimentos dos seguintes conceitos:
  [Linkdin](https://www.linkedin.com/in/lucas-da-silva-pedroso-0b4420191/)
 
  </h3>
-
-
-
-
-
