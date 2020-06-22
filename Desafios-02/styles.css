@@ -1,3 +1,7 @@
+:root {
+    --color-rocket: rgb(113, 89, 193);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +9,13 @@
 }
 
 body {
-    background-color: dimgrey;
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     padding: 30px;
-    border-bottom: 1px solid gray;
+    background: var(--color-rocket);
 }
 
 header div {
@@ -20,7 +24,7 @@ header div {
 
 header div a {
     margin: 0 30px;
-    color: rgba(175, 172, 172, 0.698);
+    color: rgba(255, 255, 255, 0.616);
     text-decoration: none;
     font-size: 20px;
     line-height: 30px;
@@ -32,4 +36,64 @@ header div a:hover {
     border-bottom: 2px solid white;
     transition: all 200ms linear 0s;
     padding-bottom: 5px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+main div {
+    margin: auto 0;
+}
+
+main h1 {
+    color: #2d2d2df5;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    color: #0000007d;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 52px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+footer {
+    background: var(--color-rocket);
+    padding: 50px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+footer span {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
