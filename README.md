@@ -21,7 +21,7 @@
 
 Criação de páginas utilizando **HTML**, **CSS**, **Javascript**
 
-<img src="https://ik.imagekit.io/mqh5rdpeme/projeto_JjlG_2V_n.gif" alt="Desafios LaunchBase - Bootcamp" />
+<img src="https://ik.imagekit.io/mqh5rdpeme/desafio-02_S_I_VMDci.gif" alt="Desafios LaunchBase - Bootcamp" />
 
 [Acessar o código](https://github.com/LSP-Lucas/launchbase-bootcamp/tree/master/Desafios-02 "Acessar o código")
 

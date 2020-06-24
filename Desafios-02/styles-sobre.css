@@ -23,6 +23,23 @@ header {
     justify-content: center;
 }
 
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header a {
+    align-self: center;
+    position: absolute;
+    left: 40px;
+}
+
+header .material-icons {
+    font-size: 34px;
+    color: white;
+}
+
 header img {
     padding: 10px;
     border: 2px solid white;
