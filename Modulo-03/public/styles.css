@@ -82,10 +82,14 @@ header {
     border-bottom: 1px solid var(--color-green);
 }
 
+#links-footer {
+    margin-bottom: 50px;
+}
+
 /* CARDS */
 .cards {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -93,6 +97,7 @@ header {
 
 .card {
     background-color: var(--color-rocket);
+    display: grid;
 }
 
 .card__image-container img {
@@ -107,6 +112,7 @@ header {
 .card__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .card__price {
