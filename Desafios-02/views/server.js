@@ -23,7 +23,9 @@ server.get("/sobre", function(req, res) {
     return res.render("sobre");
 });
 
-
+server.use(function(req, res) {
+    res.status(404).render("not-found");
+});
 
 
 server.listen(5000, function() {

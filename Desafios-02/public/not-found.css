@@ -1,0 +1,91 @@
+:root {
+    --color-rocket: rgb(113, 89, 193);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 30px;
+    background: var(--color-rocket);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    margin: 0 30px;
+    color: rgba(255, 255, 255, 0.616);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+header div a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: all 200ms linear 0s;
+    padding-bottom: 5px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+main div {
+    margin: auto 0;
+    text-align: center;
+}
+
+main h1 {
+    color: #0a0a0a96;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+main img {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background: var(--color-rocket);
+    padding: 50px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+footer span {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

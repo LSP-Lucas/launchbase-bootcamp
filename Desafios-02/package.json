@@ -1,10 +1,9 @@
 {
   "name": "Desafios02",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon ./views/server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
