@@ -1,0 +1,64 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+<title>Sobre</title>
+
+<link rel="stylesheet" href="/styles-sobre.css">
+
+{% endblock %}
+
+{% block content %}
+
+<header>
+    <div>
+        <a href="/">
+            <i class="material-icons">chevron_left</i>
+        </a>
+        <img src="img/logo-rocketseat.svg" alt="Rocketseat" width="51px" height="36px">
+        <span>Rocketseat</span>
+    </div>
+</header>
+
+<section id="sobre">
+    <div class="content">
+        <div>
+            <h1>
+                As melhores tecnologias em programação, direto ao ponto e do jeito certo.
+            </h1>
+            <p>No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de
+                alguém que te leve na direção certa.</p>
+        </div>
+        <img src="img/melhores-tecnologias.svg" alt="As melhores tecnologias">
+    </div>
+</section>
+
+<section id="tecnologias">
+    <h1>Principais Tecnologias Utilizadas</h1>
+    <div id="content">
+        <div>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Node.js</li>
+                <li>React</li>
+                <li>React Native</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="footer">
+    <div>
+        <span>Siga-nos nas redes sociais</span>
+        <a href="https://github.com/Rocketseat" target="_blank"><img src="img/logotipo.svg" alt="Github"></a>
+        <a href="http://fb.com/rocketseat" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
+        <a href="http://instagram.com/rocketseat_oficial" target="_blank"><img src="img/instagram-esbocado.svg"
+                alt="Instagram"></a>
+    </div>
+</section>
+{% endblock %}
