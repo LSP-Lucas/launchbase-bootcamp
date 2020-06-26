@@ -23,11 +23,8 @@
 <section id="sobre">
     <div class="content">
         <div>
-            <h1>
-                As melhores tecnologias em programação, direto ao ponto e do jeito certo.
-            </h1>
-            <p>No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de
-                alguém que te leve na direção certa.</p>
+            <h1>{{ sobre.title }}</h1>
+            <p>{{ sobre.description }}</p>
         </div>
         <img src="img/melhores-tecnologias.svg" alt="As melhores tecnologias">
     </div>
@@ -38,16 +35,16 @@
     <div id="content">
         <div>
             <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
+                {% for tecBase in sobre.tecBases %}
+                    <li>{{ tecBase.name }}</li>
+                {% endfor %}
             </ul>
         </div>
         <div>
             <ul>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>React Native</li>
+                {% for tecAvancada in sobre.tecAvancadas %}
+                    <li>{{ tecAvancada.name }}</li>
+                {% endfor %}
             </ul>
         </div>
     </div>
@@ -59,11 +56,12 @@
 
 <section id="footer">
     <div>
-        <span>Siga-nos nas redes sociais</span>
-        <a href="https://github.com/Rocketseat" target="_blank"><img src="img/logotipo.svg" alt="Github"></a>
-        <a href="http://fb.com/rocketseat" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
-        <a href="http://instagram.com/rocketseat_oficial" target="_blank"><img src="img/instagram-esbocado.svg"
-                alt="Instagram"></a>
+        <span>{{ sobre.redes }}</span>
+
+        {% for link in sobre.links %}
+            <a href="{{ link.url }}" target="_blank"><img src="{{ link.img }}" alt="{{ link.name }}"></a>
+        {% endfor %}
+
     </div>
 </section>
 

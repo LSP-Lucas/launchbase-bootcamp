@@ -9,11 +9,13 @@
 
 <header>
     <div>
-        <a href="https://discordapp.com/invite/gCRAFhc" target="_blank">Comunidade</a>
-        <a href="mailto:oi@rocketseat.com.br">Email</a>
-        <a href="tel:+5547992078767">Telefone</a>
-        <a href="/conteudos">Conteúdos</a>
-        <a href="/sobre">Sobre</a>
+
+        <a href="{{ index.comunidade }}" target="_blank">{{ index.name}}</a>
+
+        {% for items in index.header %}
+            <a href="{{ items.url }}">{{ items.name }}</a>
+        {% endfor %}
+
     </div>
 </header>
 
@@ -23,10 +25,9 @@
     </div>
 
     <div>
-        <h1>As mesmas tecnologias utilizadas por empresas como:</h1>
-        <h2>Nubank, Netflix, Uber, Instagram e Airbnb</h2>
-        <p>Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações
-            de alta performance e se destacando entre os maiores programadores.</p>
+        <h1>{{ index.title }}</h1>
+        <h2>{{ index.users }}</h2>
+        <p>{{ index.description }}</p>
     </div>
 </main>
 
@@ -36,11 +37,12 @@
 
 <footer>
     <div>
-        <span>Siga-nos nas redes sociais</span>
-        <a href="https://github.com/Rocketseat" target="_blank"><img src="img/logotipo.svg" alt="Github"></a>
-        <a href="http://fb.com/rocketseat" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
-        <a href="http://instagram.com/rocketseat_oficial" target="_blank"><img src="img/instagram-esbocado.svg"
-                alt="Instagram"></a>
+        <span>{{ index.redes }}</span>
+
+        {% for link in index.links %}
+            <a href="{{ link.url }}" target="_blank"><img src="{{ link.img }}" alt="{{ link.name }}"></a>
+        {% endfor %}
+
     </div>
 </footer>
 

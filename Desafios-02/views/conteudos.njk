@@ -2,79 +2,57 @@
 
 {% block head %}
 
-<title>Conteúdos</title>
-<link rel="stylesheet" href="/conteudos.css">
+    <title>items</title>
+    <link rel="stylesheet" href="/conteudos.css">
 
 {% endblock %}
 
 {% block content %}
 
-<header>
-    <div>
-        <a href="/">
-            <i class="material-icons">chevron_left</i>
-        </a>
-        <img src="img/logo-rocketseat.svg" alt="Rocketseat" width="51px" height="36px">
-        <span>Rocketseat</span>
-    </div>
-</header>
+    <header>
+        <div>
+            <a href="/">
+                <i class="material-icons">chevron_left</i>
+            </a>
+            <img src="img/logo-rocketseat.svg" alt="Rocketseat" width="51px" height="36px">
+            <span>Rocketseat</span>
+        </div>
+    </header>
 
-<section class="courses">
-    <div class="course" id="starter">
-        <div class="course-image">
-            <img src="img/starter.svg" alt="Starter">
-        </div>
-        <div class="info">
-            <p><span id="rocket">Torne-se um programador desejado</span> no mercado com esses cursos gratuitos</p>
-        </div>
-        <div class="value">
-            <p>Free</p>
-        </div>
-    </div>
+    <section class="courses">
 
-    <div class="course" id="launchbase">
-        <div class="course-image">
-            <img src="img/launchbase.svg" alt="LaunchBase">
-        </div>
-        <div class="info">
-            <p><span id="yellow">Domine programação do zero</span> e tenha acesso às melhores oportunidades do mercado
-            </p>
-        </div>
-        <div class="value">
-            <p>Pay</p>
-        </div>
-    </div>
+        {% for item in items %}
+            <div class="course" id="{{ item.id }}">
+                <div class="course-image">
+                    <img src="{{ item.img }}" alt="{{ item.id }}">
+                </div>
+                <div class="info">
+                    <p>{{ item.description }}</p>
+                </div>
+                <div class="value">
+                    <p>{{ item.price }}</p>
+                </div>
+            </div>
+        {% endfor %}
 
-    <div class="course" id="gostack">
-        <div class="course-image">
-            <img src="img/gostack.svg" alt="GoStack">
-        </div>
-        <div class="info">
-            <p><span id="green">Treinamento imersivo</span> nas tecnologias mais modernas de desenvolvimento web e
-                mobile</p>
-        </div>
-        <div class="value">
-            <p>Pay</p>
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="maximize-modal">
+                <i class="material-icons">open_in_full</i>
+            </a>
+
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
         </div>
     </div>
-</section>
 
-<div class="modal-overlay">
-    <div class="modal">
-        <a class="maximize-modal">
-            <i class="material-icons">open_in_full</i>
-        </a>
-
-        <a class="close-modal">
-            <i class="material-icons">close</i>
-        </a>
-
-        <div class="modal-content">
-            <iframe src="" frameborder="0"></iframe>
-        </div>
-    </div>
-</div>
-
-<script src="scripts.js"></script>
+    <script src="scripts.js"></script>
 
 {% endblock %}
