@@ -3,7 +3,8 @@ module.exports = [
         id: "GykTLqODQuU",
         title: "Formulário Animado com JS puro e CSS Animation | Mayk Brito",
         duration: "30 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "-j7vLmBMsEU",
@@ -15,7 +16,8 @@ module.exports = [
         id: "2G_mWfG0DZE",
         title: "Testes no NodeJS aplicando TDD com Jest | Diego Fernandes",
         duration: "1h20 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "HN1UjzRSdBk",
@@ -33,6 +35,7 @@ module.exports = [
         id: "u99tNt3TZf8",
         title: "Desvendando o Redux na prática | Diego Fernandes",
         duration: "50 min",
-        price: "59,90"
+        price: "59,90",
+        featured: true
     },
 ];
