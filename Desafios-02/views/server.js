@@ -64,6 +64,20 @@ server.get("/sobre", function(req, res) {
     return res.render("sobre", { sobre });
 });
 
+server.get("/conteudos/:id", function(req, res) {
+    const id = req.params.id;
+
+    const course = contents.find(function(course) {
+        return course.id == id;
+    });
+
+    if (!course){
+        return res.render("not-found");
+    }
+
+    return res.render("conteudo", { course });
+});
+
 server.use(function(req, res) {
     res.status(404).render("not-found");
 });

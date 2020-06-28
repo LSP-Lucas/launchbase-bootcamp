@@ -1,0 +1,27 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+    <title>items</title>
+    <link rel="stylesheet" href="/course.css">
+
+{% endblock %}
+
+{% block content %}
+
+     <header>
+        <div>
+            <a href="/">
+                <i class="material-icons">chevron_left</i>
+            </a>
+            <img src="/img/logo-rocketseat.svg" alt="Rocketseat" width="51px" height="36px">
+            <span>Rocketseat</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <iframe src="https://rocketseat.com.br/{{course.id}}" frameborder="0"></iframe>
+    </div>
+    
+{% endblock %}
+
